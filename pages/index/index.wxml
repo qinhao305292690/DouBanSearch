@@ -1,0 +1,18 @@
+	
+
+	<view>
+	<block wx:for="{{index_list}}" wx:key="index">
+		<view class="hotTop">
+			<image style="width: 80px; height: 80px;border:1px solid #999;" src="{{item.images.small}}" bindtap="idsend" data-id="{{item.id}}"></image>
+			<view  class="txt">
+				<view><text>{{item.title}}</text></view>
+				<view style="margin-top:10rpx;color:#ccc;"><text>{{item.genres}}</text></view>
+				<view style="margin-top:10rpx;color:#666;"><text>导演：{{item.directors[0].name}}</text></view>
+				<view style="margin-top:10rpx;color:#666;"><text>年份：{{item.year}}</text></view>
+				
+			</view>
+		 	<view class="ratings">{{item.rating.average}}</view>	
+		</view>
+		 
+	</block>
+</view>

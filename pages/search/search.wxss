@@ -1,0 +1,15 @@
+/* pages/search/search.wxss */
+
+
+.collect{
+	color:#aaacfa;
+	font-size: 50rpx;
+	margin-left: 30rpx;
+	padding: 20rpx 0rpx;
+	font-family: "Times New Roman",Georgia,Serif;
+}
+
+.btn{
+	font-size: 40rpx;
+	color:#5767c2;
+}

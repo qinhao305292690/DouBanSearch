@@ -1,0 +1,49 @@
+.title{
+	font-weight: 700;
+	font-size: 38rpx;
+	color:#000;
+	margin:30rpx 20rpx;
+}
+
+.img{
+	margin:30rpx 50rpx;
+	position: relative;
+	
+}
+
+.img image{
+	width:300rpx;
+	height:500rpx;
+}
+.movieDetails{
+	position: absolute;
+	top:0;
+	right:30rpx;
+	font-size: 25rpx;
+}
+.actor{
+	margin-left: 70rpx;
+}
+.movieDetails view{
+	padding:8rpx 0;
+}
+.comment{
+	padding:20rpx 30rpx;
+	font-size: 24rpx;
+	display: flex;
+	justify-content: space-around;
+}
+.rot{
+
+	padding:20rpx 30rpx;
+}
+.pt{
+	font-size: 30rpx;
+	color:#3A9C41;
+	padding-bottom: 20rpx;
+}
+.cnt{
+	font-size: 24rpx;
+	line-height: 30rpx;
+	text-indent: 2em;
+}

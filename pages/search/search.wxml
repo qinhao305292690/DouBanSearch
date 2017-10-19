@@ -1,0 +1,10 @@
+<!--pages/search/search.wxml-->
+<view>
+	<block>
+	<view class="collect">豆瓣电影集合</view>
+		<button style="" class="btn" bindtap="doing">正在上映></button>
+		<button style="" class="btn" bindtap="coming">即将上映></button>
+		<button class="btn" bindtap="top">Top10></button>
+		<button class="btn" bindtap="arm">北美票房></button>
+	</block>
+</view>

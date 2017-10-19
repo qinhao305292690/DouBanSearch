@@ -1,0 +1,23 @@
+/**index.wxss**/
+.hotTop{
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+	margin-top: 20rpx;
+	padding-bottom: 20rpx;
+	border-bottom: 1px solid #ccc;
+	position: relative;
+}
+.txt{
+	position: absolute;
+	top:5rpx;
+	left:190rpx;
+	font-size: 25rpx;
+
+}
+.ratings{
+	position: absolute;
+	top:0rpx;
+	right:0rpx;
+	font-size: 25rpx;
+	color:orange;
+}

@@ -1,0 +1,39 @@
+<!--logs.wxml-->
+<block>
+ 	<view class="title">
+ 		片名：{{show.title}}({{show.original_title}})
+ 		
+ 	</view>
+ 	<view class="img"><image src="{{show.images.large}}"></image>
+
+ 		<view class="movieDetails">
+ 		<view>导演：{{show.directors[0].name}}</view>
+ 		<view>编剧：{{show.directors[0].name}}</view>
+ 		<view>主演：{{show.casts[0].name}}
+
+ 			<view class="actor">{{show.casts[1].name}}</view>
+ 			<view class="actor">{{show.casts[2].name}}</view>
+ 			<view class="actor">{{show.casts[3].name}}</view>
+ 	
+ 				
+ 			</view>
+ 		<view>类型：{{show.genres}}</view>
+ 		<view>制片国家/地区：{{show.countries}}</view>
+ 		<view>上映时间/日期：{{show.year}}</view>
+ 		<view>又名：{{show.aka[0]}}
+ 		</view>
+ 		</view>	
+ 		 	</view>
+ 		
+<view class="comment">
+	<view>浏览量：<text style="color:red">{{show.collect_count}}</text></view>
+	<view>评论数：<text style="color:orange">{{show.comments_count}}</text></view>
+	<view>收藏量：<text style="color:#f40">{{show.ratings_count}}</text></view>							
+ </view>
+<view class="rot">
+	<view class="pt">
+		{{show.title}}的剧情简介
+	</view>
+	<view class="cnt">{{show.summary}}</view>
+</view>
+</block>
